@@ -36,6 +36,8 @@ int main()
         do
         {
             cout << "Guess any betting number between 1 & 10 :";
+                        cout << "Guess any betting number between 1 & 10 :";
+
             cin >> guess;
             if (guess <= 0 || guess > 10)
                 cout << "\nNumber should be between 1 to 10\n"
